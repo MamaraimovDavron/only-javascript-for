@@ -1,10 +1,21 @@
-let a = 40;
-let b = 1;
+let a = 15;
+let b = 10;
+let result = 0;
 
-let result;
+// 5 + 6 + 7 + 8 + 9 = 35
 
-for(let i = a + 1; i < b; i++){
-    result = i + b
+if(a < b){
+        
+    for(let i = a; i < b; i++){
+        result += i;
+    }
 }
 
+else{
+    for(let i = b; i < a; i++){
+        result += i;
+    }
+}
 console.log(result);
+
+
